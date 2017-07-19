@@ -283,12 +283,13 @@ float getTemperatureCelsius(int i) {
 int main(int argc, char *argv[]) {
 
     if (argc != 5) {
+        std::cout << "Arguments: " << argc << endl;
         std::cout << "Error: You did not provide required arguments." << endl
                 << "Usage: Aqualight-Conductivity TemperatureFile ECProbeI2CAddress EC(84µS) EC1278(µS)"
                 << endl
                 << "ECProbeI2CAddress has to be provided by integer number of port. E.g. Port:0x4d becomes 77."
                 << endl
-                << "PH Values normally come from database and are created by ph-calibrator"
+                << "EC Values normally come from database and are created by ec-calibrator"
                 << endl;
 
         return 0;

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Aqualight-Conductivity
+PROJECTNAME=RaspberryPi-Conductivity
 
 # Active Configuration
 DEFAULTCONF=Debug
